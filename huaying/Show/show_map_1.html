@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+	body, html{font-family:"微软雅黑";}
+	#container{background-color:#FFF;
+		height:430px;border:1px solid #e8ba75;border-top:30px solid #e8ba75;
+		}
+	#allmap {margin-right:10px;height: 430px;width:600px;overflow: hidden;float:left;}
+	#result {margin-top:10px;width:100%;font-size:12px;}
+	#result b{
+		font-weight:400;
+		font-size:15px;
+		}
+
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=snrMYxI9Rr5RFrA0sWr2qNDP"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+	<title>带检索功能的信息窗口</title>
+</head>
+<body>
+<div id="container">
+	<div id="allmap">	
+	</div>
+	<div id="result">
+    <b>天祥广场校区地址</b><br/>成都市二环路西一段79号天祥广场公馆11层1101-1102<br/>联系电话：028-65979998
+	</div>
+    </div>
+<script type="text/javascript">
+	// 百度地图API功能
+    var map = new BMap.Map('allmap');
+    var poi = new BMap.Point(104.027598, 30.66814);
+    map.centerAndZoom(poi, 16);
+    map.enableScrollWheelZoom();
+
+    var content = '<div style="margin:0;line-height:20px;padding:2px;">' + '地址：二环路西一段79号天祥广场公馆11层1101-1102<br/>联系电话：028-65979998' +
+                  '</div>';
+
+    //创建检索信息窗口对象
+    var searchInfoWindow = null;
+	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+			title  : "<b>成都华樱外语天祥广场校区</b>",      //标题
+			width  : 290,             //宽度
+			height : 75,              //高度
+			panel  : "panel",         //检索结果面板
+			enableAutoPan : true,     //自动平移
+			searchTypes   :[
+				BMAPLIB_TAB_TO_HERE,  //到这里去
+				BMAPLIB_TAB_FROM_HERE, //从这里出发
+				BMAPLIB_TAB_SEARCH   //周边检索
+			]
+		});
+    var marker = new BMap.Marker(poi); //创建marker对象
+    marker.enableDragging(); //marker可拖拽
+    marker.addEventListener("click", function(e){
+	    searchInfoWindow.open(marker);
+    })
+    map.addOverlay(marker); //在地图中添加marker
+	searchInfoWindow.open(marker);
+</script>
+</body>
+</html>

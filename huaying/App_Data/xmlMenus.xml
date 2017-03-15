@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menus>
+    <Menu ParentID="0">
+        <id>16</id>
+        <title>管理工具箱</title>
+        <url></url>
+    </Menu>
+	<Menu ParentID="16">
+        <id>17</id>
+        <title>查看服务器信息</title>
+        <url>right.aspx</url>
+    </Menu>
+  <Menu ParentID="16">
+    <id>19</id>
+    <title>修改密码</title>
+    <url>admin/modifyinfo.aspx</url>
+  </Menu>
+  <Menu ParentID="16">
+    <id>27</id>
+    <title>添加站内关键词</title>
+    <url>admin/keywords_insert.aspx</url>
+  </Menu>
+  <Menu ParentID="16">
+    <id>28</id>
+    <title>编辑站内关键词</title>
+    <url>admin/keywords_edit.aspx</url>
+  </Menu>
+	
+    <Menu ParentID="0">
+        <id>1</id>
+        <title>新闻管理</title>
+        <url></url>
+    </Menu>
+	<Menu ParentID="0">
+        <id>2</id>
+        <title>课程管理</title>
+        <url></url>
+    </Menu>
+	<Menu ParentID="0">
+        <id>3</id>
+        <title>名师管理</title>
+        <url></url>
+    </Menu>
+	<Menu ParentID="0">
+        <id>4</id>
+        <title>学生管理</title>
+        <url></url>
+    </Menu>
+	<Menu ParentID="0">
+        <id>5</id>
+        <title>备考须知管理</title>
+        <url></url>
+    </Menu>
+	
+    <Menu ParentID="1">
+        <id>6</id>
+        <title>添加新闻</title>
+        <url>admin/news_insert.aspx</url>
+    </Menu>
+    <Menu ParentID="1">
+        <id>7</id>
+        <title>编辑新闻</title>
+        <url>admin/news_edit.aspx</url>
+    </Menu>
+	<Menu ParentID="2">
+        <id>8</id>
+        <title>添加课程</title>
+        <url>admin/course_item_insert.aspx</url>
+    </Menu>
+    <Menu ParentID="2">
+        <id>9</id>
+        <title>编辑课程</title>
+        <url>admin/course_item_edit.aspx</url>
+    </Menu>
+	<Menu ParentID="2">
+        <id>20</id>
+        <title>编辑课程组</title>
+        <url>admin/course_group_edit.aspx</url>
+    </Menu>
+    <Menu ParentID="2">
+        <id>21</id>
+        <title>编辑课程大类图片</title>
+        <url>admin/course_image_edit.aspx</url>
+    </Menu>
+	<Menu ParentID="3">
+        <id>10</id>
+        <title>添加名师</title>
+        <url>admin/teachers_insert.aspx</url>
+    </Menu>
+    <Menu ParentID="3">
+        <id>11</id>
+        <title>编辑名师</title>
+        <url>admin/teachers_edit.aspx</url>
+    </Menu>
+	<Menu ParentID="4">
+        <id>12</id>
+        <title>添加学生</title>
+        <url>admin/students_insert.aspx</url>
+    </Menu>
+    <Menu ParentID="4">
+        <id>13</id>
+        <title>编辑学生</title>
+        <url>admin/students_edit.aspx</url>
+    </Menu>
+	<Menu ParentID="5">
+        <id>14</id>
+        <title>添加备考须知</title>
+        <url>admin/qanda_insert.aspx</url>
+    </Menu>
+    <Menu ParentID="5">
+        <id>15</id>
+        <title>编辑备考须知</title>
+        <url>admin/qanda_edit.aspx</url>
+    </Menu>
+	
+	
+	
+	<Menu ParentID="0">
+        <id>22</id>
+        <title>网站收集到的学生信息</title>
+        <url></url>
+    </Menu>
+	<Menu ParentID="22">
+        <id>23</id>
+        <title>首页免费领取体验课</title>
+        <url>admin/guest_index.aspx</url>
+    </Menu>
+	<Menu ParentID="22">
+        <id>24</id>
+        <title>向老师提问</title>
+        <url>admin/guest_ask.aspx</url>
+    </Menu>
+	<Menu ParentID="22">
+        <id>25</id>
+        <title>爱@世界</title>
+        <url>admin/guest_love.aspx</url>
+    </Menu>
+	<Menu ParentID="22">
+        <id>26</id>
+        <title>在线测评</title>
+        <url>admin/guest_exam.aspx</url>
+    </Menu>
+	
+	
+</Menus>

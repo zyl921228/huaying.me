@@ -1,0 +1,42 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*----- show-up -----*/
+html, body {
+	line-height:24px;
+	font-size:14px;
+	font-family: 'Microsoft YaHei', 'SimHei', Arial;
+	background: #2c3542;
+}
+.show-up {
+	color:#FFF;
+    width:740px;
+    margin-left:auto;
+    margin-right:auto;
+	
+}
+.show-up-left{
+	width:33%;
+	margin-top:70px;
+	float:left;
+	}
+.show-up-left-text{
+	margin-top:14px;
+	}
+.show-up-left p{
+	padding:0;
+	margin:0;
+	max-width:300px;
+	}
+.show-up-right{
+	width:67%;
+	float:right;
+	margin-top:50px;
+	}
+.show-up-right p{
+	}
+

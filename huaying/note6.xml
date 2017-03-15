@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312"?>
+<meta http-equiv="content-type" content="text/html; charset=GB2312" />
+<div class="Exam-container">
+    <div class="Exam-logo"> <img src="images/logo_color.png" /> </div>
+    <div class="Exam-Result-top">
+        <div class="Exam-Result-top-left">
+    <h3 id="Exam-result">您的综合测评结果为：<b>90</b>分</h3>
+    <div>
+			<canvas id="canvas" height="450" width="600"></canvas>
+		</div>
+            </div>
+        <div class="Exam-Result-top-right">
+            <div class="Ertr-head">
+                <p>祝贺您完成测试！<br />建议您报读的班级：<a href="course_detail.aspx?type=2"><span class="Ertr-bold">雅思基础班</span>（查看班级详情）</a></p>
+            </div>
+            <div class="Ertr-content">
+                <p><span class="Ertr-bold">学习建议：</span></p>
+                <div class="Ertr-p">
+                <p>英语零基础的学员；目标雅思7分及以上的学员；测试结果低于A2的学员。英语零基础的学员；目标雅思7分及以上的学员；</p><p>测试结果低于A2的学员。英语零基础的学员；目标雅思7分及以上的。</p>
+                    </div>
+                <p class="Ertr-content-congra">恭喜你获得一次免费体验课！</p>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="Ertr-btn">
+<a href="#" onClick="openlink()">试听预约</a>  <a href="#">查看正确答案</a>
+            </div>
+        </div>
+  </div>
+    <div class="clearfix"> </div>
+    <div class="Exam-Result-bottom">
+        <div class="Exam-Result-bottom-left">
+            <div><img src="images/exam_logo_1.png"/>四川新浪教育官方合作伙伴</div>
+            <div><img src="images/exam_logo_2.png"/>英国文化教育委员会（IELTS）雅思考试合作伙伴机构</div>     
+        </div>
+        <div class="Exam-Result-bottom-right"></div>
+            <div><img src="images/exam_logo_3.png"/>成都树德中学国际部定点外语培训基地</div>
+            <div><img src="images/exam_logo_4.png"/>成都商报诚信企业品牌榜-教育诚信品牌</div>   
+        </div>
+    </div>
+<!----//elite_teachers---->
+    <div class="clearfix"> </div>
+

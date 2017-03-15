@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<meta http-equiv="content-type" content="text/html; charset=GB2312" />
+<div class="Exam-container">
+    <div class="Exam-logo"> <img src="images/logo_grey.png" /> </div>
+    <div class="exam-Register-container">
+    <p>立即注册，查看我的得分</p>
+      <form>
+          <table class="exam-Register">
+              <tr>
+            <td>姓名：</td>
+            <td>
+              <input id="record_name" type="text"/>
+            </td>
+              </tr>
+            
+            <tr>
+            <td>邮箱：</td>
+            <td>
+              <input id="record_email" type="text"/>
+            </td>
+              </tr>
+              <tr>
+            <td>手机：</td>
+            <td>
+              <input id="record_phone" type="text"/>
+            </td>
+              </tr>
+          </table>
+      </form>
+      <p>该得分仅反映您的英语笔试水平、想要评估您的听力及口语水平需上口语体验课。</p>
+    </div>
+    <div class="exam-submitbutton"> <a href="#" onclick="showAjax2(6)">查看得分>></a> </div>
+  </div>
+<!----//elite_teachers---->
+    <div class="clearfix"> </div>
+

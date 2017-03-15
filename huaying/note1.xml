@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="gb2312"?>
+<meta http-equiv="content-type" content="text/html; charset=GB2312" />
+<div class="Exam-container">
+<div class="Exam-logo">
+<img src="images/logo_grey.png" />
+</div>
+
+
+    <div class="clearfix"> </div>
+    <div class="exam-slider">
+        <div class="exam-slider-container">
+	    <ul id="exam-form1" class="slides">
+<li>
+             <div class="exam-slider-left">
+             <h4>根据题意，选择最佳答案，或者选取最合适的单词或短语完成整个句子。</h4>
+             </div>
+            <div class="exam-slider-right">
+<h4>1．电视的画面无纯黑部分，主要是因为电视的________所导致。</h4>
+<br/>
+<input name="q1" type="radio" />A.强光漫射
+<br/><br/>
+<input name="q1" type="radio" />B.摄像造型
+<br/><br/>
+<input name="q1" type="radio" />C.框架结构
+<br/><br/>
+<input name="q1" class="bingo" type="radio" />D.杂波信号
+<br/><br/>
+<br/>
+<br/>
+<div class="flex-direction-nav">
+<a class="next" href="#">下一题>></a>
+</div>
+</div>
+    	  </li>
+<li>
+             <div class="exam-slider-left">
+             <h4>根据题意，选择最佳答案，或者选取最合适的单词或短语完成整个句子。</h4>
+             </div>
+            <div class="exam-slider-right">
+<h4>2．电视的画面无纯黑部分，主要是因为电视的________所导致。</h4>
+<br/>
+<input name="q2" type="radio" />A.强光漫射
+<br/><br/>
+<input name="q2" type="radio" />B.摄像造型
+<br/><br/>
+<input name="q2" type="radio" />C.框架结构
+<br/><br/>
+<input name="q2" class="bingo" type="radio" />D.杂波信号
+<br/><br/>
+<br/>
+<br/>
+<div class="flex-direction-nav-2">
+<a id="Ajax_1" class="next"  onclick="showAjax(2)"  href="#">继续下一模块>></a>
+</div>
+</div>
+    	  </li> 
+	    </ul>
+        </div>
+	  </div>
+
+      
+    <div class="exam-footer">
+      <div class="exam-footer-item active"><div class="active-trangle"></div>词汇（10道题）</div>
+      <div class="exam-footer-item">语法（10道题）</div>
+      <div class="exam-footer-item">听力</div>
+      <div class="exam-footer-item">阅读</div>
+      </div>
+
+                            
+
+  </div>
+<!----//elite_teachers---->
+    <div class="clearfix"> </div>
+
